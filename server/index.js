@@ -18,7 +18,7 @@ const people = require('./routes/people')
 const index = require('./routes/index')
 
 //db config
-mongoose.connection.openUri(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@ds135624.mlab.com:35624/keystore-profile-app`)
+mongoose.connection.openUri(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@ds149431.mlab.com:49431/profile-crud-routes`)
 
 //now we should configure the API to use bodyParser and look for
 //JSON data in the request body
